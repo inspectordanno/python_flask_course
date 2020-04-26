@@ -22,7 +22,7 @@ class Book:
     def paperback(cls, name: str, page_weight: int) -> "Book":
         return cls(name, cls.TYPES[1], page_weight)
 
-list_avg(123)
+list_avg([1, 2, 3])
 
 class BookShelf:
     def __init__(self, books: List[Book]):
